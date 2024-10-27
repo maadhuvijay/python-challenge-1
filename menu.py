@@ -158,7 +158,7 @@ while place_order:
                     else:
                         quantity =1
 
-                    print("order list = ",order_list)
+                    #print("order list = ",order_list)
                     # Tell the customer that their input isn't valid
                 else:
                     print("Your selection is not valid")

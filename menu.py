@@ -71,7 +71,7 @@ while place_order:
 
     # Print the options to choose from menu headings (all the first level
     # dictionary items in menu).
-    print("Menu keys:", menu.keys())
+    
     for key in menu.keys():
         print(f"{i}: {key}")
         # Store the menu category associated with its menu item number
@@ -79,11 +79,7 @@ while place_order:
         # Add 1 to the menu item number
         i += 1
 
-    #print("Menu items:",menu_items)
-    #print("Menu items keys:", menu_items.keys())
-    #print(menu_items[1])
-    #print(menu_items[2])
-
+    
     # Get the customer's input
     menu_category = input("Type menu number: ")
 
@@ -125,7 +121,7 @@ while place_order:
                     }
                     i += 1
 
-            #print("Menu items:", menu_items)
+            
             # 2. Ask customer to input menu item number
             menu_selection = input("Enter the item #: ")
 
@@ -158,7 +154,7 @@ while place_order:
                     else:
                         quantity =1
 
-                    #print("order list = ",order_list)
+                    
                     # Tell the customer that their input isn't valid
                 else:
                     print("Your selection is not valid")

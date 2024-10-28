@@ -81,7 +81,7 @@ while place_order:
 
     
     # Get the customer's input
-    menu_category = input("Type menu number: ")
+    menu_category = input("Enter the item number: ")
 
     # Check if the customer's input is a number
     if menu_category.isdigit():
@@ -233,4 +233,4 @@ for x in order_list:
 
 cost =[x['Price'] * float(x['Quantity']) for x in order_list]
 
-print ("The cost of your total order is :",sum(cost))
+print ("\nThe cost of your total order is : $",sum(cost))
